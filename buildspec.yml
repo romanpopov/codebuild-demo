@@ -10,6 +10,7 @@ phases:
       - pip install requests -t .
   post_build:
     commands:
+      - echo testpopov
       - echo Build completed on `date`
       - pwd
       - ls -al
